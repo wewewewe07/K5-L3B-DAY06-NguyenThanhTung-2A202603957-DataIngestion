@@ -1,0 +1,92 @@
+{
+  "A": {
+    "dev": {
+      "hit1": "10/15 (66.7%)",
+      "hit3": "11/15 (73.3%)",
+      "hit1_count": 10,
+      "hit3_count": 11,
+      "total": 15,
+      "hit1_pct": 66.7,
+      "hit3_pct": 73.3
+    },
+    "test": {
+      "hit1": "3/5 (60.0%)",
+      "hit3": "3/5 (60.0%)",
+      "hit1_count": 3,
+      "hit3_count": 3,
+      "total": 5,
+      "hit1_pct": 60.0,
+      "hit3_pct": 60.0
+    },
+    "total": {
+      "hit1": "13/20 (65.0%)",
+      "hit3": "14/20 (70.0%)",
+      "hit1_count": 13,
+      "hit3_count": 14,
+      "total": 20,
+      "hit1_pct": 65.0,
+      "hit3_pct": 70.0
+    },
+    "execution_time_seconds": 0.506
+  },
+  "B": {
+    "dev": {
+      "hit1": "9/15 (60.0%)",
+      "hit3": "12/15 (80.0%)",
+      "hit1_count": 9,
+      "hit3_count": 12,
+      "total": 15,
+      "hit1_pct": 60.0,
+      "hit3_pct": 80.0
+    },
+    "test": {
+      "hit1": "3/5 (60.0%)",
+      "hit3": "3/5 (60.0%)",
+      "hit1_count": 3,
+      "hit3_count": 3,
+      "total": 5,
+      "hit1_pct": 60.0,
+      "hit3_pct": 60.0
+    },
+    "total": {
+      "hit1": "12/20 (60.0%)",
+      "hit3": "15/20 (75.0%)",
+      "hit1_count": 12,
+      "hit3_count": 15,
+      "total": 20,
+      "hit1_pct": 60.0,
+      "hit3_pct": 75.0
+    },
+    "execution_time_seconds": 0.406
+  },
+  "C": {
+    "dev": {
+      "hit1": "9/15 (60.0%)",
+      "hit3": "12/15 (80.0%)",
+      "hit1_count": 9,
+      "hit3_count": 12,
+      "total": 15,
+      "hit1_pct": 60.0,
+      "hit3_pct": 80.0
+    },
+    "test": {
+      "hit1": "3/5 (60.0%)",
+      "hit3": "3/5 (60.0%)",
+      "hit1_count": 3,
+      "hit3_count": 3,
+      "total": 5,
+      "hit1_pct": 60.0,
+      "hit3_pct": 60.0
+    },
+    "total": {
+      "hit1": "12/20 (60.0%)",
+      "hit3": "15/20 (75.0%)",
+      "hit1_count": 12,
+      "hit3_count": 15,
+      "total": 20,
+      "hit1_pct": 60.0,
+      "hit3_pct": 75.0
+    },
+    "execution_time_seconds": 0.429
+  }
+}

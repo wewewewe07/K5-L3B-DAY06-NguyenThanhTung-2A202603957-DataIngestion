@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,600,80,"document_id,source,page,section,category",none,gemini-embedding-001 (768d),Fixed window cơ học chạy nhanh nhưng dễ đứt gãy câu và phân tán ngữ cảnh,10/15 (66.7%),11/15 (73.3%),3/5 (60.0%),3/5 (60.0%),266 chunks; Coherence 0.60/2.0; Grounding 1.20/2.0; time 146.43s
+B,by_paragraph,900,0,"document_id,source,page,section,category",none,gemini-embedding-001 (768d),Cắt theo đoạn văn và câu hoàn chỉnh giúp tăng tính mạch lạc và độ bao phủ ngữ nghĩa,9/15 (60.0%),12/15 (80.0%),3/5 (60.0%),3/5 (60.0%),175 chunks (giảm 34.2%); Coherence 1.60/2.0; Grounding 1.40/2.0; time 112.91s
+C,by_paragraph,900,0,"document_id,source,page,section,category",category,gemini-embedding-001 (768d),Dùng chung index B kết hợp metadata filter khi truy vấn giúp loại bỏ 100% nhiễu phạm vi,9/15 (60.0%),12/15 (80.0%),3/5 (60.0%),3/5 (60.0%),175 chunks; Filter compliance 100% (q14 q15 q20); Coherence 1.60/2.0; Grounding 1.40/2.0

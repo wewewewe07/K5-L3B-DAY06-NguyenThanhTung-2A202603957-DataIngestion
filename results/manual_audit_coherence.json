@@ -1,0 +1,182 @@
+[
+  {
+    "location_page": 1,
+    "section": "1. Introduction",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p01_c00",
+      "char_length": 600,
+      "preview": "Explainable Artificial Intelligence: A Survey of Needs, Techniques, Applications, and Future Direction Melkamu Mershaa, ...",
+      "score": 1,
+      "reason": "Bị cắt đứt ở cuối hoặc đầu câu"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p01_c00",
+      "char_length": 896,
+      "preview": "Explainable Artificial Intelligence: A Survey of Needs, Techniques, Applications, and Future Direction Melkamu Mershaa, ...",
+      "score": 2,
+      "reason": "Ngắt đúng ranh giới đoạn/câu, độc lập và giữ trọn ngữ cảnh"
+    }
+  },
+  {
+    "location_page": 3,
+    "section": "2. Background and Motivation (Terminology & Need)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p03_c00",
+      "char_length": 600,
+      "preview": "necessity to establish trustworthy and transparent models, ensure governance and compliance, and evaluate and improve th...",
+      "score": 0,
+      "reason": "Bị cắt gãy cả đầu và đuôi đoạn, mất chủ ngữ"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p03_c00",
+      "char_length": 858,
+      "preview": "necessity to establish trustworthy and transparent models, ensure governance and compliance, and evaluate and improve th...",
+      "score": 1,
+      "reason": "Đoạn văn dài nhưng ngắt câu tương đối rõ ràng"
+    }
+  },
+  {
+    "location_page": 4,
+    "section": "2. Background and Motivation (Stakeholders & Interpretability)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p04_c00",
+      "char_length": 600,
+      "preview": "if AI systems use sensitive and protected attributes (e.g., religion, gender, sexual orientation, and race) and make bia...",
+      "score": 0,
+      "reason": "Bị cắt gãy cả đầu và đuôi đoạn, mất chủ ngữ"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p04_c00",
+      "char_length": 885,
+      "preview": "if AI systems use sensitive and protected attributes (e.g., religion, gender, sexual orientation, and race) and make bia...",
+      "score": 1,
+      "reason": "Đoạn văn dài nhưng ngắt câu tương đối rõ ràng"
+    }
+  },
+  {
+    "location_page": 5,
+    "section": "3. Categories of Explainability Techniques",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p05_c00",
+      "char_length": 600,
+      "preview": "that must be disentangled before any progress can be made toward a rigorous definition [44]. Explainability is seen as a...",
+      "score": 0,
+      "reason": "Bị cắt gãy cả đầu và đuôi đoạn, mất chủ ngữ"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p05_c00",
+      "char_length": 759,
+      "preview": "that must be disentangled before any progress can be made toward a rigorous definition [44]. Explainability is seen as a...",
+      "score": 1,
+      "reason": "Đoạn văn dài nhưng ngắt câu tương đối rõ ràng"
+    }
+  },
+  {
+    "location_page": 7,
+    "section": "4. Detailed Discussions on XAI Techniques (LIME, SHAP)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p07_c00",
+      "char_length": 600,
+      "preview": "Hence, the explanation of the model is generated iteratively using perturbation-based XAI techniques such as LIME, SHAP,...",
+      "score": 1,
+      "reason": "Bị cắt đứt ở cuối hoặc đầu câu"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p07_c00",
+      "char_length": 824,
+      "preview": "Hence, the explanation of the model is generated iteratively using perturbation-based XAI techniques such as LIME, SHAP,...",
+      "score": 2,
+      "reason": "Ngắt đúng ranh giới đoạn/câu, độc lập và giữ trọn ngữ cảnh"
+    }
+  },
+  {
+    "location_page": 8,
+    "section": "4. Detailed Discussions on XAI Techniques (CFE & Taxonomy Tree)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p08_c00",
+      "char_length": 600,
+      "preview": "Figure 4: Explainability taxonomy. Figure 5: Chronological order of state-of-the-art XAI techniques. where ϕ0 is the def...",
+      "score": 1,
+      "reason": "Bị cắt đứt ở cuối hoặc đầu câu"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p08_c00",
+      "char_length": 868,
+      "preview": "Figure 4: Explainability taxonomy. Figure 5: Chronological order of state-of-the-art XAI techniques. where ϕ0 is the def...",
+      "score": 2,
+      "reason": "Ngắt đúng ranh giới đoạn/câu, độc lập và giữ trọn ngữ cảnh"
+    }
+  },
+  {
+    "location_page": 10,
+    "section": "4. Detailed Discussions on XAI Techniques (CAM & Integrated Gradients)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p10_c00",
+      "char_length": 600,
+      "preview": "LRP is subject to the conservation property, which means a neuron that receives the relevance score must be redistribute...",
+      "score": 1,
+      "reason": "Bị cắt đứt ở cuối hoặc đầu câu"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p10_c00",
+      "char_length": 835,
+      "preview": "LRP is subject to the conservation property, which means a neuron that receives the relevance score must be redistribute...",
+      "score": 2,
+      "reason": "Ngắt đúng ranh giới đoạn/câu, độc lập và giữ trọn ngữ cảnh"
+    }
+  },
+  {
+    "location_page": 14,
+    "section": "5. XAI Techniques in Application Areas (NLP & Fine-Tuning)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p14_c00",
+      "char_length": 600,
+      "preview": "The success of XAI techniques used in NLP applications is heavily dependent on the quality of preprocessing and the type...",
+      "score": 1,
+      "reason": "Bị cắt đứt ở cuối hoặc đầu câu"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p14_c00",
+      "char_length": 802,
+      "preview": "The success of XAI techniques used in NLP applications is heavily dependent on the quality of preprocessing and the type...",
+      "score": 2,
+      "reason": "Ngắt đúng ranh giới đoạn/câu, độc lập và giữ trọn ngữ cảnh"
+    }
+  },
+  {
+    "location_page": 18,
+    "section": "5. XAI Techniques in Application Areas (Time Series Methods)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p18_c00",
+      "char_length": 600,
+      "preview": "The use of time series forecasting models is ubiquitous in real-world datasets. Accurate time series forecasting of stoc...",
+      "score": 1,
+      "reason": "Bị cắt đứt ở cuối hoặc đầu câu"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p18_c00",
+      "char_length": 897,
+      "preview": "The use of time series forecasting models is ubiquitous in real-world datasets. Accurate time series forecasting of stoc...",
+      "score": 2,
+      "reason": "Ngắt đúng ranh giới đoạn/câu, độc lập và giữ trọn ngữ cảnh"
+    }
+  },
+  {
+    "location_page": 23,
+    "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+    "strategy_A": {
+      "chunk_id": "A_XAI_survey_2025_p23_c00",
+      "char_length": 600,
+      "preview": "key advantages, such as enhancing trust and interpretability, ensuring physically plausible predictions, improving model...",
+      "score": 0,
+      "reason": "Bị cắt gãy cả đầu và đuôi đoạn, mất chủ ngữ"
+    },
+    "strategy_B": {
+      "chunk_id": "B_XAI_survey_2025_p23_c00",
+      "char_length": 700,
+      "preview": "key advantages, such as enhancing trust and interpretability, ensuring physically plausible predictions, improving model...",
+      "score": 1,
+      "reason": "Đoạn văn dài nhưng ngắt câu tương đối rõ ràng"
+    }
+  }
+]

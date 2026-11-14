@@ -1,0 +1,302 @@
+{
+  "source_id": "XAI_survey_2025",
+  "title": "Explainable Artificial Intelligence: A Survey of Needs, Techniques, Applications, and Future Direction",
+  "authors": [
+    "Melkamu Mersha",
+    "Khang Lam",
+    "Joseph Wood",
+    "Ali AlShami",
+    "Jugal Kalita"
+  ],
+  "affiliations": [
+    "College of Engineering and Applied Science, University of Colorado Colorado Springs, CO, USA",
+    "College of Information and Communication Technology, Can Tho University, Can Tho, Vietnam"
+  ],
+  "source_path": "data/raw/Explanable_AI_survey.pdf",
+  "source_url": "https://arxiv.org/abs/2409.00265",
+  "arxiv_id": "arXiv:2409.00265v2 [cs.AI]",
+  "publication_date": "2025-01-13",
+  "license_or_permission": "arXiv.org perpetual non-exclusive license / Open Access for academic and research evaluation",
+  "accessed_at": "2026-11-14",
+  "total_physical_pages": 31,
+  "valid_content_pages": 26,
+  "content_pages_range": "1-26",
+  "reference_pages_count": 5,
+  "reference_pages_range": "27-31",
+  "page_counting_rule": "Pages 1-26 represent core survey body text across 8 primary sections (Introduction, Background, Taxonomy, XAI Techniques, Applications in NLP/CV/TimeSeries/Healthcare/AV/Science, Evaluation, Future Directions, Conclusion). Pages 27-31 are bibliographic reference entries [1]-[205]. Total narrative content equals 135,650 characters, equivalent to ~90 standardized 1,500-char content units.",
+  "total_characters": 176118,
+  "content_characters": 135650,
+  "metadata_fields": [
+    "document_id",
+    "source",
+    "page",
+    "section",
+    "category"
+  ],
+  "supported_filter_categories": [
+    "introduction",
+    "background",
+    "taxonomy",
+    "techniques_perturbation",
+    "techniques_gradient",
+    "techniques_transformers",
+    "techniques_rl",
+    "applications_nlp",
+    "applications_cv",
+    "applications_timeseries",
+    "applications_healthcare",
+    "applications_science",
+    "evaluation",
+    "future_directions"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "section": "1. Introduction",
+      "category": "introduction",
+      "characters": 5277,
+      "is_content_page": true,
+      "preview": "Explainable Artificial Intelligence: A Survey of Needs, Techniques, Applications, and Future Directi"
+    },
+    {
+      "page": 2,
+      "section": "2. Background and Motivation",
+      "category": "background",
+      "characters": 4271,
+      "is_content_page": true,
+      "preview": "Figure 1: Research publications in the explainability of artificial intelligence (XAI) field during "
+    },
+    {
+      "page": 3,
+      "section": "2. Background and Motivation (Terminology & Need)",
+      "category": "background",
+      "characters": 6432,
+      "is_content_page": true,
+      "preview": "necessity to establish trustworthy and transparent models, en- sure governance and compliance, and e"
+    },
+    {
+      "page": 4,
+      "section": "2. Background and Motivation (Stakeholders & Interpretability)",
+      "category": "background",
+      "characters": 5117,
+      "is_content_page": true,
+      "preview": "if AI systems use sensitive and protected attributes (e.g., re- ligion, gender, sexual orientation, "
+    },
+    {
+      "page": 5,
+      "section": "3. Categories of Explainability Techniques",
+      "category": "taxonomy",
+      "characters": 6442,
+      "is_content_page": true,
+      "preview": "that must be disentangled before any progress can be made to- ward a rigorous definition [44]. Expla"
+    },
+    {
+      "page": 6,
+      "section": "3. Categories of Explainability Techniques (Perturbation & Gradient)",
+      "category": "taxonomy",
+      "characters": 4270,
+      "is_content_page": true,
+      "preview": "Table 1: Examples of representative XAI techniques and where they lie on the spectrum. Spectrum XAI "
+    },
+    {
+      "page": 7,
+      "section": "4. Detailed Discussions on XAI Techniques (LIME, SHAP)",
+      "category": "techniques_perturbation",
+      "characters": 5976,
+      "is_content_page": true,
+      "preview": "Hence, the explanation of the model is generated iteratively us- ing perturbation-based XAI techniqu"
+    },
+    {
+      "page": 8,
+      "section": "4. Detailed Discussions on XAI Techniques (CFE & Taxonomy Tree)",
+      "category": "techniques_perturbation",
+      "characters": 1784,
+      "is_content_page": true,
+      "preview": "Figure 4: Explainability taxonomy. Figure 5: Chronological order of state-of-the-art XAI techniques."
+    },
+    {
+      "page": 9,
+      "section": "4. Detailed Discussions on XAI Techniques (Saliency Map, LRP)",
+      "category": "techniques_gradient",
+      "characters": 4281,
+      "is_content_page": true,
+      "preview": "Figure 6: Illustration of LIME detailing instance-level interpretations for pre- dictions by a black"
+    },
+    {
+      "page": 10,
+      "section": "4. Detailed Discussions on XAI Techniques (CAM & Integrated Gradients)",
+      "category": "techniques_gradient",
+      "characters": 5194,
+      "is_content_page": true,
+      "preview": "LRP is subject to the conservation property, which means a neuron that receives the relevance score "
+    },
+    {
+      "page": 11,
+      "section": "4. Detailed Discussions on XAI Techniques (Transformers & Attention)",
+      "category": "techniques_transformers",
+      "characters": 5190,
+      "is_content_page": true,
+      "preview": "to ensuring consistency and trustworthiness of attribution meth- ods. Consider a function F: Rn→ [0,"
+    },
+    {
+      "page": 12,
+      "section": "4. Detailed Discussions on XAI Techniques (Reinforcement Learning) & Summary",
+      "category": "techniques_rl",
+      "characters": 5584,
+      "is_content_page": true,
+      "preview": "4.3.2. Propagation in LayerNorm LayerNorm or Layer normalization is the crucial component in Transfo"
+    },
+    {
+      "page": 13,
+      "section": "5. XAI Techniques in Application Areas (Overview & Summary Table)",
+      "category": "applications_nlp",
+      "characters": 2984,
+      "is_content_page": true,
+      "preview": "Table 2: The XAI techniques discussed, the methods used, their advantages and disadvantages. Techniq"
+    },
+    {
+      "page": 14,
+      "section": "5. XAI Techniques in Application Areas (NLP & Fine-Tuning)",
+      "category": "applications_nlp",
+      "characters": 5097,
+      "is_content_page": true,
+      "preview": "The success of XAI techniques used in NLP applications is heavily dependent on the quality of prepro"
+    },
+    {
+      "page": 15,
+      "section": "5. XAI Techniques in Application Areas (Prompting & Attention in NLP)",
+      "category": "applications_nlp",
+      "characters": 6883,
+      "is_content_page": true,
+      "preview": "[93]. The gradient-based studies explored the impact of change- of-thought prompting on the internal"
+    },
+    {
+      "page": 16,
+      "section": "5. XAI Techniques in Application Areas (Computer Vision & CNNs)",
+      "category": "applications_cv",
+      "characters": 5762,
+      "is_content_page": true,
+      "preview": "systematically organizing and discussing various strategies for constructing prompts [92]. This cata"
+    },
+    {
+      "page": 17,
+      "section": "5. XAI Techniques in Application Areas (Vision Transformers & Time Series)",
+      "category": "applications_cv_timeseries",
+      "characters": 5741,
+      "is_content_page": true,
+      "preview": "Figure 12: Visualization of CAM (input image from CIFAR 10 dataset). put image to indicate the most "
+    },
+    {
+      "page": 18,
+      "section": "5. XAI Techniques in Application Areas (Time Series Methods)",
+      "category": "applications_timeseries",
+      "characters": 6393,
+      "is_content_page": true,
+      "preview": "The use of time series forecasting models is ubiquitous in real-world datasets. Accurate time series"
+    },
+    {
+      "page": 19,
+      "section": "5. XAI Techniques in Application Areas (Time Series Case Studies & Healthcare)",
+      "category": "applications_healthcare",
+      "characters": 6627,
+      "is_content_page": true,
+      "preview": "Let’s consider a specific example: a prediction model for the stock price on a particular day is exp"
+    },
+    {
+      "page": 20,
+      "section": "5. XAI Techniques in Application Areas (Healthcare Summary & Autonomous Vehicles)",
+      "category": "applications_healthcare_av",
+      "characters": 3943,
+      "is_content_page": true,
+      "preview": "Table 3: Summarize XAI techniques in Healthcare. No. Data Type Medical data XAI Techniques Applicati"
+    },
+    {
+      "page": 21,
+      "section": "5. XAI Techniques in Application Areas (Autonomous Vehicles, Chemistry, Physics)",
+      "category": "applications_science",
+      "characters": 6739,
+      "is_content_page": true,
+      "preview": "Shahin et al. [172]. Table 4 shows a summary of various XAI techniques in autonomous vehicles, inclu"
+    },
+    {
+      "page": 22,
+      "section": "5. XAI Techniques in Application Areas (AV Summary & Key Insights)",
+      "category": "applications_science",
+      "characters": 3363,
+      "is_content_page": true,
+      "preview": "Table 4: Summarize XAI techniques in Autonomous Vehicles. No. Input Types Sources AI models XAI Tech"
+    },
+    {
+      "page": 23,
+      "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+      "category": "evaluation",
+      "characters": 4365,
+      "is_content_page": true,
+      "preview": "key advantages, such as enhancing trust and interpretability, ensuring physically plausible predicti"
+    },
+    {
+      "page": 24,
+      "section": "6. XAI Evaluation Methods (Fidelity, Consistency, Robustness, Efficiency)",
+      "category": "evaluation",
+      "characters": 4463,
+      "is_content_page": true,
+      "preview": "Stability can be represented by the variance in explanations over multiple runs with the same input."
+    },
+    {
+      "page": 25,
+      "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+      "category": "future_directions",
+      "characters": 6049,
+      "is_content_page": true,
+      "preview": "A lower PDC indicates that the rationale is highly su fficient with minimal loss of confidence, wher"
+    },
+    {
+      "page": 26,
+      "section": "7. Future Research Direction (Multilingual) & 8. Conclusion",
+      "category": "future_directions_conclusion",
+      "characters": 7423,
+      "is_content_page": true,
+      "preview": "efficient XAI algorithms and techniques in real-time. Much ef- fort is needed to address these chall"
+    },
+    {
+      "page": 27,
+      "section": "References ([1]-[39])",
+      "category": "references",
+      "characters": 8685,
+      "is_content_page": false,
+      "preview": "tematic review of trustworthy and Explainable Artificial Intelligence in healthcare: Assessment of q"
+    },
+    {
+      "page": 28,
+      "section": "References ([40]-[97])",
+      "category": "references",
+      "characters": 8746,
+      "is_content_page": false,
+      "preview": "[70] C. Rana, M. Dahiya, et al., Safety of autonomous systems using rein- forcement learning: A comp"
+    },
+    {
+      "page": 29,
+      "section": "References ([98]-[153])",
+      "category": "references",
+      "characters": 8786,
+      "is_content_page": false,
+      "preview": "Revised Selected Papers 4, Springer, 2020, pp. 372–381. [116] W. Bao, J. Yue, Y . Rao, A deep learni"
+    },
+    {
+      "page": 30,
+      "section": "References ([154]-[198])",
+      "category": "references",
+      "characters": 8880,
+      "is_content_page": false,
+      "preview": "Development and validation of an explainable machine learning-based prediction model for drug–food i"
+    },
+    {
+      "page": 31,
+      "section": "References ([199]-[205])",
+      "category": "references",
+      "characters": 5371,
+      "is_content_page": false,
+      "preview": "explainable artificial intelligence methods in the phase classification of multi-principal element a"
+    }
+  ]
+}

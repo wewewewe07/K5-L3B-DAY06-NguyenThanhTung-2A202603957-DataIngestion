@@ -1,0 +1,128 @@
+{
+  "total_records_checked": 15,
+  "valid_and_accurate_records": 15,
+  "accuracy_ratio": "15/15 (100.0%)",
+  "filter_compliance_q20": "3/3 (100.0%)",
+  "records": [
+    {
+      "question_id": "q16",
+      "chunk_id": "B_XAI_survey_2025_p24_c05",
+      "page": 24,
+      "section": "6. XAI Evaluation Methods (Fidelity, Consistency, Robustness, Efficiency)",
+      "category": "evaluation",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q16",
+      "chunk_id": "B_XAI_survey_2025_p24_c04",
+      "page": 24,
+      "section": "6. XAI Evaluation Methods (Fidelity, Consistency, Robustness, Efficiency)",
+      "category": "evaluation",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q16",
+      "chunk_id": "B_XAI_survey_2025_p25_c00",
+      "page": 25,
+      "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+      "category": "future_directions",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q17",
+      "chunk_id": "B_XAI_survey_2025_p03_c04",
+      "page": 3,
+      "section": "2. Background and Motivation (Terminology & Need)",
+      "category": "background",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q17",
+      "chunk_id": "B_XAI_survey_2025_p26_c01",
+      "page": 26,
+      "section": "7. Future Research Direction (Multilingual) & 8. Conclusion",
+      "category": "future_directions_conclusion",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q17",
+      "chunk_id": "B_XAI_survey_2025_p01_c02",
+      "page": 1,
+      "section": "1. Introduction",
+      "category": "introduction",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q18",
+      "chunk_id": "B_XAI_survey_2025_p25_c07",
+      "page": 25,
+      "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+      "category": "future_directions",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q18",
+      "chunk_id": "B_XAI_survey_2025_p25_c06",
+      "page": 25,
+      "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+      "category": "future_directions",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q18",
+      "chunk_id": "B_XAI_survey_2025_p20_c05",
+      "page": 20,
+      "section": "5. XAI Techniques in Application Areas (Healthcare Summary & Autonomous Vehicles)",
+      "category": "applications_healthcare_av",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q19",
+      "chunk_id": "B_XAI_survey_2025_p26_c00",
+      "page": 26,
+      "section": "7. Future Research Direction (Multilingual) & 8. Conclusion",
+      "category": "future_directions_conclusion",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q19",
+      "chunk_id": "B_XAI_survey_2025_p25_c05",
+      "page": 25,
+      "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+      "category": "future_directions",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q19",
+      "chunk_id": "B_XAI_survey_2025_p03_c05",
+      "page": 3,
+      "section": "2. Background and Motivation (Terminology & Need)",
+      "category": "background",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q20",
+      "chunk_id": "B_XAI_survey_2025_p20_c05",
+      "page": 20,
+      "section": "5. XAI Techniques in Application Areas (Healthcare Summary & Autonomous Vehicles)",
+      "category": "applications_healthcare_av",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q20",
+      "chunk_id": "B_XAI_survey_2025_p22_c01",
+      "page": 22,
+      "section": "5. XAI Techniques in Application Areas (AV Summary & Key Insights)",
+      "category": "applications_science",
+      "is_accurate": true
+    },
+    {
+      "question_id": "q20",
+      "chunk_id": "B_XAI_survey_2025_p21_c01",
+      "page": 21,
+      "section": "5. XAI Techniques in Application Areas (Autonomous Vehicles, Chemistry, Physics)",
+      "category": "applications_science",
+      "is_accurate": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-14T11:23:03Z",
+  "model_name": "models/gemini-embedding-001",
+  "dimensions": 768,
+  "vector_store": "PostgreSQL 16 + pgvector 0.8.7 (Docker)",
+  "strategy_A": {
+    "chunk_count": 266,
+    "embed_time_seconds": 146.43,
+    "cost_usd": 0.0
+  },
+  "strategy_B": {
+    "chunk_count": 175,
+    "embed_time_seconds": 112.91,
+    "cost_usd": 0.0
+  },
+  "strategy_C": {
+    "chunk_count": 175,
+    "embed_time_seconds": 0.0,
+    "notes": "Shares Strategy B vector index; applies runtime SQL metadata filtering"
+  }
+}

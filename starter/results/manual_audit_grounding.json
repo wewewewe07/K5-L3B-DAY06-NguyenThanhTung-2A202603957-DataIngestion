@@ -1,0 +1,113 @@
+{
+  "strategy_A": {
+    "counts": {
+      "0": 2,
+      "1": 0,
+      "2": 3
+    },
+    "average": 1.2
+  },
+  "strategy_B": {
+    "counts": {
+      "0": 1,
+      "1": 1,
+      "2": 3
+    },
+    "average": 1.4
+  },
+  "strategy_C": {
+    "counts": {
+      "0": 1,
+      "1": 1,
+      "2": 3
+    },
+    "average": 1.4
+  },
+  "details": [
+    {
+      "question_id": "q16",
+      "question": "What does Percentage Drop in Confidence (PDC) measure in rationale sufficiency evaluation?",
+      "gold_page": 24,
+      "strategy_A": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      },
+      "strategy_B": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      },
+      "strategy_C": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      }
+    },
+    {
+      "question_id": "q17",
+      "question": "How does high architectural complexity in deep neural networks impact the effectiveness of XAI techniques?",
+      "gold_page": 25,
+      "strategy_A": {
+        "score": 0,
+        "reason": "Top-3 không chứa bằng chứng từ trang 25, thông tin trả về bị lệch trọng tâm."
+      },
+      "strategy_B": {
+        "score": 0,
+        "reason": "Top-3 không chứa bằng chứng từ trang 25, thông tin trả về bị lệch trọng tâm."
+      },
+      "strategy_C": {
+        "score": 0,
+        "reason": "Top-3 không chứa bằng chứng từ trang 25, thông tin trả về bị lệch trọng tâm."
+      }
+    },
+    {
+      "question_id": "q18",
+      "question": "What data stream and latency conditions make real-time explanations in autonomous cars challenging?",
+      "gold_page": 25,
+      "strategy_A": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      },
+      "strategy_B": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      },
+      "strategy_C": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      }
+    },
+    {
+      "question_id": "q19",
+      "question": "Why are multilingual and multicultural XAI methods necessary when deploying large AI models in diverse societal environments?",
+      "gold_page": 26,
+      "strategy_A": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      },
+      "strategy_B": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      },
+      "strategy_C": {
+        "score": 2,
+        "reason": "Top-3 chứa đủ bằng chứng gốc và số trang để trả lời chính xác."
+      }
+    },
+    {
+      "question_id": "q20",
+      "question": "What sensor and communication modalities enhance AI-driven autonomous vehicle systems?",
+      "gold_page": 21,
+      "strategy_A": {
+        "score": 0,
+        "reason": "Top-3 không chứa bằng chứng từ trang 21, thông tin trả về bị lệch trọng tâm."
+      },
+      "strategy_B": {
+        "score": 1,
+        "reason": "Top-3 có chunk từ cùng trang vàng nhưng bằng chứng bị ngắt quãng hoặc thiếu vế sau."
+      },
+      "strategy_C": {
+        "score": 1,
+        "reason": "Top-3 có chunk từ cùng trang vàng nhưng bằng chứng bị ngắt quãng hoặc thiếu vế sau."
+      }
+    }
+  ]
+}

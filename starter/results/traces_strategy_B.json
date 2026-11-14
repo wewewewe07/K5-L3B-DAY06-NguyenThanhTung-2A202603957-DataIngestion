@@ -1,0 +1,948 @@
+[
+  {
+    "question_id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Why do artificial intelligence models encounter significant challenges in safety-critical domains such as healthcare and autonomous vehicles?",
+    "expected_answer": "Artificial intelligence models face major challenges due to their black-box nature, especially in safety-critical domains like healthcare, finance, and autonomous vehicles.",
+    "gold_page": 1,
+    "evidence_quote": "Artificial intelligence models encounter significant challenges due to their black-box nature, particularly in safety-critical domains such as healthcare, finance, and autonomous vehicles.",
+    "filter": null,
+    "hit_at_1": 0,
+    "hit_at_3": 0,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p01_c04",
+        "page": 1,
+        "section": "1. Introduction",
+        "category": "introduction",
+        "score": 0.7614,
+        "distance": 0.2385711618927302,
+        "text": "The AI system does not usually provide any information about how it arrives at the decisions it makes. The systems and processes used in decision-making are often abstruse and contain uncertainty in how they operate. Since these systems impact lives, it leads to an emerging need to understand how decisions are made. Lack of such understanding makes it di fficult to adopt such a powerful tool in industries that require sensitivity or that are critical to the survival of the species. The black-box nature of AI models raises significant concerns, including the need for explainability, interpretability, accountability, and transparency. These aspects, along with legal, ethical, and safety considerations, are crucial for building trust in AI, not just among scientists but also among the wider public, regulators, and politicians who are increasingly attentive to new developments.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p01_c03",
+        "page": 1,
+        "section": "1. Introduction",
+        "category": "introduction",
+        "score": 0.7387,
+        "distance": 0.26130084719623947,
+        "text": "Nevertheless, significant challenges remain in trusting the output of these complex ML algorithms and AI models because the detailed inner logic and system architectures are obfuscated by the user by design. AI has shown itself to be an efficient and effective way to handle many tasks at which humans usually excel. In fact, it has become pervasive, yet hidden from the casual observer, in our day-to-day lives. As AI techniques proliferate, the implementations are starting to outperform even the best expectations across many domains [3]. Since AI solves di fficult problems, the methodologies used have become increasingly complex. A common analogy is that of the black box, where the inputs are well-defined, as are the outputs. However, the process is not transparent and cannot be easily understood by humans.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p25_c06",
+        "page": 25,
+        "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+        "category": "future_directions",
+        "score": 0.7384,
+        "distance": 0.26159862772697207,
+        "text": "Real-time Explanation Complex AI models have recently become more popular and deployed in real-time situations in various non-safety and safety-critical application areas. Safety-critical application areas such as healthcare monitoring, autonomous cars, military operations, and robotics models should provide real-time explanations to ensure safety. However, the existing state-of-the-art XAIs have several challenges addressing this real-time explanation aspect. There are various factors for these XAI challenges. For example, a DNN may require numerous layers, thousands, millions, or billions of parameters to process the real-time input data, which is time-consuming, especially for large models. On the other hand, large volumes of data are generated continuously in real-time situations.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What role does XAI play in fostering social collaboration and human-machine interaction?",
+    "expected_answer": "XAI plays a significant role by increasing trustworthiness, reliability, and responsibility of AI systems, helping reduce negative impacts such as unethical use, discrimination, and biases.",
+    "gold_page": 4,
+    "evidence_quote": "fostering social collaboration and human-machine interactions [2] by increasing the trustworthiness, reliability, and responsibility of AI systems, helping reduce the negative impacts such as unethical use of AI systems, discrimination, and biases.",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p04_c03",
+        "page": 4,
+        "section": "2. Background and Motivation (Stakeholders & Interpretability)",
+        "category": "background",
+        "score": 0.753,
+        "distance": 0.24700770270182526,
+        "text": "Society: XAI plays a significant role in fostering social collaboration and human-machine interactions [2] by increasing the trustworthiness, reliability, and responsibility of AI systems, helping reduce the negative impacts such as unethical use of AI systems, discrimination, and biases. Hence, XAI promotes trust and the usage of models in society. Governments and associated organizations: Governments and governmental organizations have become AI system users. Therefore, the government will be greatly benefited by XAI systems. XAI can help develop the government’s public policy decisions, such as public safety and resource allocation, by making them transparent, accountable, and explainable to society. Figure 3: XAI stakeholders/beneficiaries.",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p21_c04",
+        "page": 21,
+        "section": "5. XAI Techniques in Application Areas (Autonomous Vehicles, Chemistry, Physics)",
+        "category": "applications_science",
+        "score": 0.7386,
+        "distance": 0.2614464608642433,
+        "text": "Additionally, achieving accountability is vital for addressing potential liability and responsibility issues, particularly in post-accident investigations involving autonomous vehicles, as highlighted by Burton et al. [182]. Clear accountability is essential to effectively manage the complexities encountered in these situations. Human-AI decision-making (collaboration): In recent autonomous vehicle systems, machine learning models are utilized to assist users in making final judgments or decisions, representing a form of collaboration between humans and AI systems [183]. With XAI, these systems can foster appropriate reliance, as decision-makers may be less inclined to follow an AI prediction if an explanation reveals flawed model reasoning [184]. From the users’ perspective, XAI helps to build trust and confidence through this collaboration.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p20_c06",
+        "page": 20,
+        "section": "5. XAI Techniques in Application Areas (Healthcare Summary & Autonomous Vehicles)",
+        "category": "applications_healthcare_av",
+        "score": 0.7378,
+        "distance": 0.26215383446008844,
+        "text": "Implementing XAI in autonomous vehicles significantly contributes to human-centered design by promoting trustworthiness, transparency, and accountability. This approach considers various perspectives, including psychological, sociotechnical, and philosophical dimensions, as highlighted in 20",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What is the critical timing difference between ante-hoc and post-hoc explanation techniques?",
+    "expected_answer": "The critical difference between them is the stage in which they are implemented during the AI system life cycle.",
+    "gold_page": 5,
+    "evidence_quote": "Ante-hoc and post-hoc explanation techniques are two different ways to explain the inner workings of AI systems. The critical difference between them is the stage in which they are implemented [7].",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p05_c06",
+        "page": 5,
+        "section": "3. Categories of Explainability Techniques",
+        "category": "taxonomy",
+        "score": 0.8398,
+        "distance": 0.16018743965775928,
+        "text": "The critical difference between them is the stage in which they are implemented [7]. The ante-hoc XAI techniques are employed during the training and development stages of an AI system to make the model more transparent and understandable, whereas the post-hoc explanation techniques are employed after the AI models have been trained and deployed to explain the model’s prediction or decision-making process to the model users. Post-hoc explainability focuses on models which are not readily explainable by ante-hoc techniques. Ante-hoc and post-hoc explanation techniques can be employed in tandem to gain a more comprehensive comprehension of AI systems, as they are mutually reinforcing [10]. Some examples of antehoc XAI techniques are decision trees, general additive models, and Bayesian models.",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p05_c05",
+        "page": 5,
+        "section": "3. Categories of Explainability Techniques",
+        "category": "taxonomy",
+        "score": 0.7715,
+        "distance": 0.2284963106425031,
+        "text": "Local explanations are focused on explaining predictions or decisions made by a specific instance or input to a model [2, 10]. This approach is particularly useful for examining the behavior of the model in relation to the local, individual predictions or decisions. Global techniques provide either an overview or a complete description of the model, but such techniques usually require knowledge of input data, algorithm, and trained model [44]. The global explanation technique needs to understand the whole structures, features, weights, and other parameters. In practice, global techniques are challenging to implement since complex models with multiple dimensions, millions of parameters, and weights are challenging to understand. 3.2. Ante-hoc and Post-hoc Explanation Techniques Ante-hoc and post-hoc explanation techniques are two different ways to explain the inner workings of AI systems.",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p05_c07",
+        "page": 5,
+        "section": "3. Categories of Explainability Techniques",
+        "category": "taxonomy",
+        "score": 0.7606,
+        "distance": 0.23944084390691633,
+        "text": "Some examples of post-hoc XAI techniques are Local Interpretable Model-Agnostic Explanations (LIME) [26] and Shapley Additive Explanations (SHAP) [52]. Arrieta et al. [10] classify the post-hoc explanation techniques into two categories: • Model-specific approaches provide explanations for the predictions or decisions made by a specific AI model, based on the model’s internal working structure and design. These techniques may not apply to other models with varying architectures, since they are designed for specific models [4]. However, a model-specific technique provides 5",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Why may model-specific post-hoc explanation techniques fail to generalize across different AI architectures?",
+    "expected_answer": "Model-specific approaches explain decisions based on a specific model's internal structure and design, so they may not apply to other models with varying architectures.",
+    "gold_page": 5,
+    "evidence_quote": "Model-specific approaches provide explanations for the predictions or decisions made by a specific AI model, based on the model’s internal working structure and design. These techniques may not apply to other models with varying architectures",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p05_c07",
+        "page": 5,
+        "section": "3. Categories of Explainability Techniques",
+        "category": "taxonomy",
+        "score": 0.7839,
+        "distance": 0.21605051884086734,
+        "text": "Some examples of post-hoc XAI techniques are Local Interpretable Model-Agnostic Explanations (LIME) [26] and Shapley Additive Explanations (SHAP) [52]. Arrieta et al. [10] classify the post-hoc explanation techniques into two categories: • Model-specific approaches provide explanations for the predictions or decisions made by a specific AI model, based on the model’s internal working structure and design. These techniques may not apply to other models with varying architectures, since they are designed for specific models [4]. However, a model-specific technique provides 5",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p06_c02",
+        "page": 6,
+        "section": "3. Categories of Explainability Techniques (Perturbation & Gradient)",
+        "category": "taxonomy",
+        "score": 0.7557,
+        "distance": 0.24430711569825592,
+        "text": "Because it provides explanations for the predictions of a complex model in a way that is understandable to a human and is modelagnostic, LIME is explainable good insights into how the model works and makes a decision. For example, neural networks, random forests, and support vector machine models require model-specific explanation methods. The model-specific technique in neural networks provides more comprehensive insights into the network structure, including how weights are allocated to individual neurons and which neurons are explicitly activated for a given instance. • Model-agnostic approaches are applied to all AI models and provide explanations of the models without depending on an understanding of the model’s internal working structure or design. This approach is used to explain complex models that are di fficult to explain using ante-hoc explanation techniques.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p05_c06",
+        "page": 5,
+        "section": "3. Categories of Explainability Techniques",
+        "category": "taxonomy",
+        "score": 0.7534,
+        "distance": 0.24659790700822148,
+        "text": "The critical difference between them is the stage in which they are implemented [7]. The ante-hoc XAI techniques are employed during the training and development stages of an AI system to make the model more transparent and understandable, whereas the post-hoc explanation techniques are employed after the AI models have been trained and deployed to explain the model’s prediction or decision-making process to the model users. Post-hoc explainability focuses on models which are not readily explainable by ante-hoc techniques. Ante-hoc and post-hoc explanation techniques can be employed in tandem to gain a more comprehensive comprehension of AI systems, as they are mutually reinforcing [10]. Some examples of antehoc XAI techniques are decision trees, general additive models, and Bayesian models.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What do gradients represent in gradient-based XAI methods and how is feature importance determined?",
+    "expected_answer": "Gradients reflect output sensitivity to input feature changes; higher gradient values imply greater importance for the prediction.",
+    "gold_page": 7,
+    "evidence_quote": "These gradients reflect the sensitivity of the model’s output to changes in each input feature [53]. A higher gradient value for an input feature implies greater importance for the model’s prediction.",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p07_c00",
+        "page": 7,
+        "section": "4. Detailed Discussions on XAI Techniques (LIME, SHAP)",
+        "category": "techniques_perturbation",
+        "score": 0.7736,
+        "distance": 0.22637692819756794,
+        "text": "Hence, the explanation of the model is generated iteratively using perturbation-based XAI techniques such as LIME, SHAP, and counterfactual. Gradient-based XAI methods obtain the gradients of the model’s prediction with respect to its input features. These gradients reflect the sensitivity of the model’s output to changes in each input feature [53]. A higher gradient value for an input feature implies greater importance for the model’s prediction. Gradient-based XAI methods are valuable for their ability to handle high-dimensional input space and scalability for large datasets and models. These methods can help gain a deeper understanding of the model and detect errors and biases that decrease its reliability and accuracy, particularly in safety-critical applications such as health care and self-driving cars [2].",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p11_c01",
+        "page": 11,
+        "section": "4. Detailed Discussions on XAI Techniques (Transformers & Attention)",
+        "category": "techniques_transformers",
+        "score": 0.7585,
+        "distance": 0.2414598146596748,
+        "text": "In other words, Integrated Gradients can be defined as the path integral of the gradients along the straight-line path from x′ to the input instance x. The gradient of F(x) along the ith dimension is given by∂F(x) ∂xi , leading to the Integrated Gradient ( IG) along the ith dimension for an input x and baseline x′ to be described as: IGi(x) = (xi− x′ i)× Z 1 α=0 ∂F(x′ +α× (x− x′)) ∂xi dα. (11) The Integral Gradient XAI method satisfies several important properties, such as sensitivity, completeness, and implementation details. It can be applied to any differential model, making it a powerful and model-specific tool for explanation in a DNN [64]. 4.3.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p14_c04",
+        "page": 14,
+        "section": "5. XAI Techniques in Application Areas (NLP & Fine-Tuning)",
+        "category": "applications_nlp",
+        "score": 0.7555,
+        "distance": 0.24453386086711593,
+        "text": "The Integrated Gradients technique computes the integral of the gradients of the model’s prediction with the corresponding input text embeddings along the path from a baseline input to the original input. The baseline input is a neutral or zero-embedding version of the input text that has no relevant features for the prediction task. The difference between the input word embeddings and the baseline embeddings is then multiplied by the integral to find the attribution scores for each word, which indicate the relevance of each word to the model’s prediction. Integrated Gradients output a heatmap that highlights the most important words in the original input text based on the attribution scores [66]. This provides a clear visualization of the words that were most significant for the model’s prediction, allowing users to understand how the model made that particular decision.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "What property must be satisfied by the explanation model g(x') under the local accuracy requirement of SHAP?",
+    "expected_answer": "Local accuracy requires that the explanation model g(x') matches the original model f(x) for a given input x'.",
+    "gold_page": 8,
+    "evidence_quote": "“local accuracy” requires that the explanation modelg(x′) matches the original model f (x)",
+    "filter": null,
+    "hit_at_1": 0,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p07_c04",
+        "page": 7,
+        "section": "4. Detailed Discussions on XAI Techniques (LIME, SHAP)",
+        "category": "techniques_perturbation",
+        "score": 0.7225,
+        "distance": 0.27753973538184806,
+        "text": "Another function g maps instances of X′ to a set of representations denoted as Y′ which are designed to be easily understandable or explainable: g : X′→ Y′, where y′∈ Y′ is an output from the set of possible outputs in Y′. The use of interpretable instances in Y′ allows for clearer insights into the model’s prediction processes. LIME [26] provides an explanation for each input instancex, where f (x) = y′≈ y is the prediction of the black-box model. The LIME model isg∈ G where g is explanation model that belongs to a set of interpretable models G. Let’s say every g < G is “good enough” to be interpretable.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p07_c07",
+        "page": 7,
+        "section": "4. Detailed Discussions on XAI Techniques (LIME, SHAP)",
+        "category": "techniques_perturbation",
+        "score": 0.719,
+        "distance": 0.28101915087783724,
+        "text": "The subsequent contribution values give a measure of the feature relevance, which is significant to the model’s output [52, 58]. Assume f is the original or black-box model, g is the explanation model, M is the number of simplified input features, x is a single input, and x′ is a simplified input such that x = hx(x′). Additive feature attribution methods, such as SHAP, have a linear function model explanation with binary variables. g(x′) =ϕ0 + MX i=1 ϕiz′ i, (2) 7",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p08_c00",
+        "page": 8,
+        "section": "4. Detailed Discussions on XAI Techniques (CFE & Taxonomy Tree)",
+        "category": "techniques_perturbation",
+        "score": 0.7174,
+        "distance": 0.2826084224487151,
+        "text": "Figure 4: Explainability taxonomy. Figure 5: Chronological order of state-of-the-art XAI techniques. where ϕ0 is the default explanation when no binary features, z′ i ∈{ 0, 1}M and ϕi ∈ R. The SHAP model explanation must satisfy three properties to provide high accuracy [52]: (i) “local accuracy” requires that the explanation modelg(x′) matches the original model f (x), (ii) “missingness” which states, if the simplified inputs denote feature presence, then its attribute influence would be 0. More simply, if a feature is absent, it should have no impact on the model output, and (iii) “consistency” requires that if the contribution of a simplified input increases or stays the same (regardless of the other inputs), then the input’s attribution should not decrease. SHAP leverages contribution values to explain the importance of each feature to a model’s output.",
+        "is_gold_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What does the conservation property mandate in Layer-wise Relevance Propagation (LRP)?",
+    "expected_answer": "A neuron receiving a relevance score must redistribute that score to the lower layer in an equal amount.",
+    "gold_page": 10,
+    "evidence_quote": "LRP is subject to the conservation property, which means a neuron that receives the relevance score must be redistributed to the lower layer in an equal amount.",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p10_c00",
+        "page": 10,
+        "section": "4. Detailed Discussions on XAI Techniques (CAM & Integrated Gradients)",
+        "category": "techniques_gradient",
+        "score": 0.82,
+        "distance": 0.17997912473520583,
+        "text": "LRP is subject to the conservation property, which means a neuron that receives the relevance score must be redistributed to the lower layer in an equal amount. Assume j and k are two consecutive layers, where layer k is closer to the output layer. The neurons in layer k have computed their relevance scores, denoted as (Rk)k, propagating relevance scores to layer j. Then, propagated relevance score to neuron R j is computed using the following formula [62]: R j = X k z jk P j z jk Rk, (8) where z jk is the contribution of neuron j to Rk and P j z jk is used to enforce the conservation property. In this context, a pertinent question arises as to how do we determinez jk, which represents the contribution of a neuron j to a neuron k in the network, is ascertained? LRP uses three significant rules to address this question [61].",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p09_c05",
+        "page": 9,
+        "section": "4. Detailed Discussions on XAI Techniques (Saliency Map, LRP)",
+        "category": "techniques_gradient",
+        "score": 0.7283,
+        "distance": 0.2717335144287578,
+        "text": "Each neuron redistributes the relevance score to the lower layer ( R j) when it receives from, the higher layer (Rk). 9",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p10_c01",
+        "page": 10,
+        "section": "4. Detailed Discussions on XAI Techniques (CAM & Integrated Gradients)",
+        "category": "techniques_gradient",
+        "score": 0.7264,
+        "distance": 0.2735702095056758,
+        "text": "• The basic rule redistributes the relevance score to the input features in proportion to their positive contribution to the output. • The Epsilon rule uses an ϵ to diminish relevance scores when contributions to neuron k are weak and contradictory. • The Gamma rule uses a large value ofγ to reduces negative contribution or to lower noise and enhance stability. Overall, LRP is faithful, meaning that it does not introduce any bias into the explanation [61]. This is important for ensuring that the explanations are accurate and trustworthy. LRP is complex to implement and interpret, which requires a good understanding of the neural networks’ architecture. It is computationally expensive for large and complex models to compute the backpropagating relevance scores throughout all layers of the networks. LRP is only applicable to backpropagation-based models like neural networks.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "In what safety-critical areas can the failure of Reinforcement Learning agents lead to catastrophic consequences?",
+    "expected_answer": "In safety-critical areas like autonomous vehicles, healthcare, and energy systems.",
+    "gold_page": 12,
+    "evidence_quote": "various domains, including safety-critical areas like autonomous vehicles, healthcare, and energy systems [70, 71]. In the domain of autonomous vehicles, RL is employed to refine adaptive cruise control and lane-keeping",
+    "filter": null,
+    "hit_at_1": 0,
+    "hit_at_3": 0,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p12_c02",
+        "page": 12,
+        "section": "4. Detailed Discussions on XAI Techniques (Reinforcement Learning) & Summary",
+        "category": "techniques_rl",
+        "score": 0.7006,
+        "distance": 0.2993657447768775,
+        "text": "In the domain of autonomous vehicles, RL is employed to refine adaptive cruise control and lane-keeping features by learning optimal decision-making strategies from simulations of diverse tra ffic scenarios [72]. Explainability in reinforcement learning concerns the ability to understand and explain the rationale behind the decisions made and actions taken by reinforcement learning models within their specified environments [73, 74, 75]. Post-hoc explanations, such as SHAP and LIME, can help us understand and explain which features are most important for the decision-making process of an RL agent [76, 77]. Example-based explanation methods, like trajectory analysis, help us to get insights into the decision-making process of the RL model by examining specific trajectories, such as sequences of states, actions, and rewards [78].",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p12_c03",
+        "page": 12,
+        "section": "4. Detailed Discussions on XAI Techniques (Reinforcement Learning) & Summary",
+        "category": "techniques_rl",
+        "score": 0.667,
+        "distance": 0.3329861198366004,
+        "text": "Visualization techniques enable us to understand and interpret the RL models by visually representing the model’s decision-making processing [79]. Several explainability methods exist to interpret reinforcement learning models, including saliency maps, counterfactual explanations, policy distillation, attention mechanisms, Human-in-the-loop, query system, and natural language explanations [80]. Explainability in reinforcement learning is crucial, particularly for safety-critical domains, due to the need for trust, safety assurance, regulatory compliance, ethical decision-making, model debugging, collaborative humanAI interaction, accountability, and AI model adoption and acceptance [73, 81, 82]. 4.5. Summary Applying XAI techniques can enhance transparency and trust in AI models by explaining their decision-making and prediction processes.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p21_c01",
+        "page": 21,
+        "section": "5. XAI Techniques in Application Areas (Autonomous Vehicles, Chemistry, Physics)",
+        "category": "applications_science",
+        "score": 0.6572,
+        "distance": 0.3427915767615425,
+        "text": "[174] highlighted the critical need for algorithmic assurance to foster trust in human-autonomous system relationships, as evidenced in their thorough analysis. The importance of transparency in critical driving decisions, noting that such clarity is crucial for establishing trust in the autonomous capabilities of self-driving vehicles [175]. Safety and reliability: These are critical components and challenges in developing autonomous driving technology [176]. Under the US Department of Transportation, the American National Highway Traffic Safety Administration (NHTSA) has established specific federal guidelines for automated vehicle policy to enhance tra ffic safety, as outlined in their 2016 policy document [177].",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Why are transparent models easy to interpret for human users in NLP tasks?",
+    "expected_answer": "Because their internal mechanisms and decision-making processes are designed to be inherently understandable.",
+    "gold_page": 14,
+    "evidence_quote": "Transparent models are easy to interpret because their internal mechanisms and decision-making processes are designed to be inherently understandable [10].",
+    "filter": null,
+    "hit_at_1": 0,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p12_c06",
+        "page": 12,
+        "section": "4. Detailed Discussions on XAI Techniques (Reinforcement Learning) & Summary",
+        "category": "techniques_rl",
+        "score": 0.804,
+        "distance": 0.19597849371410936,
+        "text": "In NLP, language models can be classified into three categories: transparent architectures, neural network (non-Transformer) architectures, and transformer architectures. Transparent models are straightforward and easy to understand due to their clear processing paths and direct interpretability. Models based on neural network (non-Transformer) architectures are often termed “black boxes” due to their multi-layered structures and non-linear processing. Transformer architectures utilize self-attention mechanisms to process sequences of data. The increased complexity and larger number of parameters often make transformer-based models less interpretable, requiring advanced techniques to explain their decision-making processes. 12",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p14_c00",
+        "page": 14,
+        "section": "5. XAI Techniques in Application Areas (NLP & Fine-Tuning)",
+        "category": "applications_nlp",
+        "score": 0.7694,
+        "distance": 0.23064761158265545,
+        "text": "The success of XAI techniques used in NLP applications is heavily dependent on the quality of preprocessing and the type of text data used [2, 85]. This is important because XAI is critical to developing reliable and transparent NLP models that can be employed for real-world applications by allowing us to understand how a model arrived at a particular decision. This section reviews some of the most common XAI techniques for NLP. Figure 9 presents a taxonomy of NLP explainability. Figure 9: Taxonomy of explainability in natural language processing. 5.1.1. Explaining Neural Networks and Fine-Tuned Transformer Models: Insights and Techniques Transparent models are easy to interpret because their internal mechanisms and decision-making processes are designed to be inherently understandable [10].",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p14_c05",
+        "page": 14,
+        "section": "5. XAI Techniques in Application Areas (NLP & Fine-Tuning)",
+        "category": "applications_nlp",
+        "score": 0.7432,
+        "distance": 0.25675892354327,
+        "text": "IG can be used to identify the most important features in a sentence, understand how the model’s predictions change when di fferent input features are changed, and improve the transparency and interpretability of NLP models [89]. 5.1.2. Prompt-Based Explainability for Transformer Models In this subsection, we discuss some of the most common prompt-based explanation techniques, including Chain of Thought (CoT), In-Context Learning (ICL), and interactive prompts. Chain of Thought: In the context of a large language model (LLM) such as GPT-3[90], Chain of Thought prompts refer to the input sequences intended to instruct the model using a series of intermediate reasoning steps to generate a coherent output [91, 92]. This technique helps enhance task performance by providing a clear sequence of reasoning steps, making the model’s thought process more understandable to the audience 14",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Into what architectural categories are computer vision models classified for explainability purposes?",
+    "expected_answer": "Convolutional Neural Network-based models (CNNs) and attention-based models such as Vision Transformers (ViTs).",
+    "gold_page": 16,
+    "evidence_quote": "models can be categorized into Convolutional Neural Network-based models (CNNs) and attention-based models, such as Vision Transformers (ViTs), based on their architecture.",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p16_c02",
+        "page": 16,
+        "section": "5. XAI Techniques in Application Areas (Computer Vision & CNNs)",
+        "category": "applications_cv",
+        "score": 0.7919,
+        "distance": 0.20810250803031305,
+        "text": "Explainability in Computer Vision In computer vision, models can be categorized into Convolutional Neural Network-based models (CNNs) and attentionbased models, such as Vision Transformers (ViTs), based on their architecture. Accordingly, various XAI approaches are designed to work with these model architectures. For CNNs, techniques such as saliency maps, LRP, Integrated Gradients, and CAM are the most commonly employed. On the other hand, for ViTs, methods like attention visualization, Attention Rollout, Attention Flow, Counterfactual Visual Explanations, and Feature Attribution are extensively used. Figure 11 presents a taxonomy of vision explainability. 5.2.1. Explainability of CNNs Saliency Maps: In computer vision, a saliency map helps identify the most important regions of an image for a deep learning model’s prediction.",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p16_c04",
+        "page": 16,
+        "section": "5. XAI Techniques in Application Areas (Computer Vision & CNNs)",
+        "category": "applications_cv",
+        "score": 0.7649,
+        "distance": 0.23510848071581314,
+        "text": "The saliency map method removes less relevant regions (pixels), such as the image background, and identifies the most important regions of the input image for the model’s decision. However, it is important to note that the saliency map only provides a local explanation by highlighting specific pixels of the input image and does not provide a global explanation. Class Activation Maps: CNNs are powerful neural models for image processing tasks, achieving state-of-the-art performance in various applications such as object recognition, segmentation, and detection [104, 105]. However, their complex architecture and the high dimensionality of their learned features make it challenging to understand how they make decisions. Using CAM for explaining the behavior of CNN models is popular [106]. The CNN model is first trained with preprocessed and labeled image data for image classification tasks.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p17_c02",
+        "page": 17,
+        "section": "5. XAI Techniques in Application Areas (Vision Transformers & Time Series)",
+        "category": "applications_cv_timeseries",
+        "score": 0.7558,
+        "distance": 0.24417921514413,
+        "text": "CAM provides a visual representation of which regions in the input image were most relevant to a particular class by highlighting them [104]. Thus, all these approaches provide insights into the model’s focus areas for specific features or regions. Attention Rollout and Attention Flow Methods: These are Transformer explainability approaches designed for Transformer-based models [69]. They are designed to track and understand the flow of information from individual input features through the network’s self-attention mechanism. These approaches help interpret the complexity of ViTs by addressing layer-wise information mixing. They provide deeper insights into the decision-making process of the model by o ffering improved methods for understanding how information from input features is processed and integrated across the network’s layers.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What is TSViz and what does it help users explore in time series data?",
+    "expected_answer": "TSViz is a model-agnostic visualization toolkit that helps users explore and comprehend complex time series data regardless of model type.",
+    "gold_page": 18,
+    "evidence_quote": "TSViz (Time Series Visualization) is a model-agnostic set of visualization techniques that help users explore and comprehend complex time series data, regardless of the type of model used for analysis [125].",
+    "filter": null,
+    "hit_at_1": 0,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p18_c06",
+        "page": 18,
+        "section": "5. XAI Techniques in Application Areas (Time Series Methods)",
+        "category": "applications_timeseries",
+        "score": 0.7537,
+        "distance": 0.2463408199344479,
+        "text": "Human interpretation and input are essential for comprehending the data and visualizations generated, and users are responsible for determining metrics and making necessary adjustments to the model [132]. TSViz enhances users’ ability to analyze and model time-series data through various visualizations, including line plots, heatmaps, seasonal plots, autocorrelation plots, and spectral density plots. However, it does not replace the importance of human expertise and judgement required for effective decision-making and insight drawing [133]. Overall, TSViz is an essential tool that empowers users to make datadriven decisions and predictions, gain a deeper understanding of underlying systems and phenomena, and identify potential sources of bias in their models. 5.3.4.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p18_c05",
+        "page": 18,
+        "section": "5. XAI Techniques in Application Areas (Time Series Methods)",
+        "category": "applications_timeseries",
+        "score": 0.7404,
+        "distance": 0.2595508315984768,
+        "text": "TSViz TSViz (Time Series Visualization) is a model-agnostic set of visualization techniques that help users explore and comprehend complex time series data, regardless of the type of model used for analysis [125]. This XAI technique uses various dimensionality reduction techniques, such as principal component analysis (PCA [126]), t-distributed stochastic neighbor embedding (t-SNE [127]), and uniform manifold approximation and projection (UMAP [128]), to simplify highdimensional time series data and generate visualizations that reveal trends, patterns, and correlations [129, 130]. These techniques are especially useful for identifying complex relationships that might be difficult to detect with traditional visualization methods [131]. TSViz is a post-hoc, human-in-the-loop XAI tool that supports analysis and decision-making by human experts [125].",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p18_c04",
+        "page": 18,
+        "section": "5. XAI Techniques in Application Areas (Time Series Methods)",
+        "category": "applications_timeseries",
+        "score": 0.6649,
+        "distance": 0.3350599624616444,
+        "text": "This technique utilizes the weights from the global average pooling (GAP) layer to identify the segments of the time series, which are then used to produce the saliency mapping of the weight vector to the original time series for visualization and easier explainability. In addition to CAM, there are other approaches for visualizing the intermediate activations of a DNN that utilizes convolutional layers and GAP layers before the final output layer [103, 123], and the visualization technique called Deconvolutional Networks [102]. Deconvolutional Networks can be repurposed for time series data by treating sequential data points as channels, which enables the visualization and comprehension of hierarchical features learned by convolutional layers in a time series-specific context [124]. 5.3.3.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Into which two major categories are XAI system evaluation methods classified?",
+    "expected_answer": "Human-centered and computer-centered categories based on applications and methodologies.",
+    "gold_page": 23,
+    "evidence_quote": "XAI system evaluation methods are classified into human-centered and computer-centered categories based on their applications and methodologies to judge",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p23_c01",
+        "page": 23,
+        "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+        "category": "evaluation",
+        "score": 0.7915,
+        "distance": 0.2085072438546257,
+        "text": "XAI system evaluation methods are classified into human-centered and computer-centered categories based on their applications and methodologies to judge the effectiveness of XAI techniques [211, 212]. Figure 13 shows a simple taxonomy of XAI evaluation methods. Figure 13: A suggested classification framework for assessing the e fficacy of XAI systems (adapted from [211]). 6.1. Human-Centered Approach The human-centered approach evaluates how the provided XAI explanations meet model users’ needs, understanding levels, and objectives from the human perspective [213]. This approach is concerned with comprehensibility, trust, user satisfaction, and decision-making support of the provided XAI explanations [214]. The generated explanations should be clear, brief, and easily understandable by the end-users without technical knowledge.",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p23_c03",
+        "page": 23,
+        "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+        "category": "evaluation",
+        "score": 0.771,
+        "distance": 0.2290163969549509,
+        "text": "XAI systems can be assessed by evaluating how effectively the generated explanations support users’ decision-making. How much do the XAI explanations apply to their decision-making process, reduce errors, and enhance productivity? The humancentered evaluation method also assesses the cognitive load that ensures the provided XAI explanations do not a ffect the user’s cognitive processing capacity [215]. 6.2. Computer-Centered Approach The computer-centered method aims to the evaluation of XAI techniques based on technical and objective standards without the interactions of human interpretation [217]. This method involves important XAI technical, objective, and quantifiable metrics such as fidelity, consistency, robustness, efficiency, and other dimensions [218]. 6.2.1.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p23_c02",
+        "page": 23,
+        "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+        "category": "evaluation",
+        "score": 0.7619,
+        "distance": 0.23811273219682783,
+        "text": "The explanation should also be relevant and represented by a clear and interpretable visualization mechanism. The explanations should build the end-users’ trust by providing a transparent, consistent, and reliable decision-making process for the model [215]. Hence, the designed evaluation methods ensure the users’ trust and satisfaction level through surveys, interviews, questionnaires, behavioral analysis, and other handy tools. The users’ satisfaction is the most essential aspect of evaluation methods. The XAI system can be evaluated by collecting the users’ feedback and assessing their emotional responses [216]. Ease of using the XAI system and the usefulness of the generated explanations to end users also provide insights into the values of the explanation and XAI system.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How is fidelity defined as a quantitative dimension in XAI evaluation?",
+    "expected_answer": "Fidelity refers to how close the provided XAI explanations are to the actual decision made by a model.",
+    "gold_page": 23,
+    "evidence_quote": "Fidelity refers to how the provided XAI explanations are close to the actual decision made by a model focusing on the accuracy of representation",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p23_c04",
+        "page": 23,
+        "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+        "category": "evaluation",
+        "score": 0.855,
+        "distance": 0.14501494867290743,
+        "text": "Fidelity Fidelity refers to how the provided XAI explanations are close to the actual decision made by a model focusing on the accuracy of representation, quantitative measurement, and complex model handling [219]. Does the explanation reflect the accurate reasoning decision process of a model? Does the explanation contain essential information about complex models, such as deep learning models? Hence, high fidelity reflects that the explanation is an accurate interpretation. Fidelity is computed at the instance level using the following formula [220]: S = 1− nX i=1 Y(xi)− Y(x′ i)",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p07_c05",
+        "page": 7,
+        "section": "4. Detailed Discussions on XAI Techniques (LIME, SHAP)",
+        "category": "techniques_perturbation",
+        "score": 0.7515,
+        "distance": 0.24848926550815542,
+        "text": "To prove this hypothesis, LIME uses three important arguments: a measure of complexity Ω(g) of the explanation, ensuring it remains simple enough for human understanding; a proximity measure (πx(z)) that quantifies the closeness between the original instance x and its perturbations; and a fidelity measure ζ( f, g,π x) which assesses how well g approximates f ’s predictions, aiming for this value to be minimal to maximize the faithfulness of the explanation. The following formula achieves the explanation produced by LIME: ξ(x) = argminζ( f, g,π x) + Ω(g). (1) Figure 6 illustrates the LIME model for explaining a prediction of a black-box model based on an instance. LIME can be considered a model-agnostic technique for generating explanations that can be used across di fferent ML models.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p23_c03",
+        "page": 23,
+        "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+        "category": "evaluation",
+        "score": 0.7504,
+        "distance": 0.24956988693213078,
+        "text": "XAI systems can be assessed by evaluating how effectively the generated explanations support users’ decision-making. How much do the XAI explanations apply to their decision-making process, reduce errors, and enhance productivity? The humancentered evaluation method also assesses the cognitive load that ensures the provided XAI explanations do not a ffect the user’s cognitive processing capacity [215]. 6.2. Computer-Centered Approach The computer-centered method aims to the evaluation of XAI techniques based on technical and objective standards without the interactions of human interpretation [217]. This method involves important XAI technical, objective, and quantifiable metrics such as fidelity, consistency, robustness, efficiency, and other dimensions [218]. 6.2.1.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Why is healthcare considered a critical domain requiring explainable decision-making?",
+    "expected_answer": "Due to the high risks and complexities of the medical decision-making process.",
+    "gold_page": 19,
+    "evidence_quote": "Healthcare is a critical domain due to the high risks and complexities of the medical decision-making process.",
+    "filter": {
+      "category": "applications_healthcare"
+    },
+    "hit_at_1": 0,
+    "hit_at_3": 0,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p19_c04",
+        "page": 19,
+        "section": "5. XAI Techniques in Application Areas (Time Series Case Studies & Healthcare)",
+        "category": "applications_healthcare",
+        "score": 0.8034,
+        "distance": 0.1966398024989472,
+        "text": "The power of XAI comes here to provide transparent, understandable, and interpretable explanations for the AI model decisions to build trust between them. Hence, XAI is necessary in healthcare due to its role in enhancing trust and confidence, ensuring faithfulness to ethical considerations, managing regulatory compliance, improving clinical decision-making, facilitating ongoing learning and model fine-tuning, improving risk management and analysis, and enhancing collaborative communications between clinicians, patients, and AI models [138]. XAI has several crucial applications in various aspects of healthcare, such as medical diagnosis, patient treatment, drug discovery and development, clinical decision support, and risk assessment.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p19_c07",
+        "page": 19,
+        "section": "5. XAI Techniques in Application Areas (Time Series Case Studies & Healthcare)",
+        "category": "applications_healthcare",
+        "score": 0.786,
+        "distance": 0.21396596604343388,
+        "text": "The model decision-making process and how and why the model made that decision should be transparent and understandable for healthcare professionals and patients [22]. XAI systems should be ensured and safeguarded for the privacy and security of medical and patient data [160]. XAI systems mitigate the biases and ensure that AI-made decisions are fair and reasonable across diverse patients [22]. Regulatory transparency and audits [161], medical device regulations [162], informed consent [163], liability and malpractice concerns [164], and intellectual property rights [21] are among the most critical legal considerations in the application of XAI in healthcare. Ethical considerations: The ethical considerations of XAI in healthcare are complicated and significant [165, 166]. It fo19",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p19_c06",
+        "page": 19,
+        "section": "5. XAI Techniques in Application Areas (Time Series Case Studies & Healthcare)",
+        "category": "applications_healthcare",
+        "score": 0.7792,
+        "distance": 0.22080928116682674,
+        "text": "It provides good insights into why a specific medicine is suggested based on a patient’s medical data and diagnosis [156]. Drug discovery and development: XAI plays a vital role in drug discovery and development in the pharmaceutical industry [157]. It explains and provides insights into complex relationships among the molecular structures of drugs and their biological effects [158]. Clinical decision support: XAI systems assist healthcare professionals by providing transparent and interpretable explanations of the decision-making processes of models handling complex data [159]. Clinicians can more easily understand complex cases by considering the influential features highlighted in the explanations provided by XAI systems [20]. Legal considerations: The use of XAI in healthcare raises several legal considerations.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "How can explanation stability be quantitatively represented over multiple runs?",
+    "expected_answer": "Stability can be represented by the variance in explanations over multiple runs with the same input.",
+    "gold_page": 24,
+    "evidence_quote": "Stability can be represented by the variance in explanations over multiple runs with the same input.",
+    "filter": {
+      "category": "evaluation"
+    },
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p24_c00",
+        "page": 24,
+        "section": "6. XAI Evaluation Methods (Fidelity, Consistency, Robustness, Efficiency)",
+        "category": "evaluation",
+        "score": 0.8324,
+        "distance": 0.16762348678543637,
+        "text": "Stability can be represented by the variance in explanations over multiple runs with the same input. σ2 exp = 1 N NX i=1 (ei− ¯e)2, (21) whereσ2 exp is variance of explanations, ei is the explanation for the ith run, ¯e is the average of all explanations, andN is the total number of runs. Uniformity (U) quantifies how uniformly distributed the explanation features are. The higher value of U implies that the distribution of features in the explanation is closer to a uniform distribution. U = 1− vut 1 N NX N=1",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p23_c05",
+        "page": 23,
+        "section": "6. XAI Evaluation Methods (Human & Computer-Centered)",
+        "category": "evaluation",
+        "score": 0.7541,
+        "distance": 0.24589795373190038,
+        "text": "|Y(xi)| , (20) where n is total number of inputs, x is the original input for the process instance, X′ is the set of perturbations forx and x′∈ X′, Y(x) is the model output given input x, and Y(x′) is the model output given input x′. 6.2.2. Consistency Consistency focuses on the stability and coherence of the explanations provided by the XAI system with the same input and different model runs. Stability, uniformity, and predictability are the most important aspects of consistency. The consistency of XAI systems can be determined in different ways [221]. The following equations compute stability and uniformity. 23",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p24_c02",
+        "page": 24,
+        "section": "6. XAI Evaluation Methods (Fidelity, Consistency, Robustness, Efficiency)",
+        "category": "evaluation",
+        "score": 0.7282,
+        "distance": 0.271784066068371,
+        "text": "R = 1− 1 N NX i=1 ∥exp (xi)− exp (x′ i)∥, (23) where exp (x) is the explanation for input x, x′ i is the perturbation of xi, and N is the total number of perturbations. Adaptability to Model Changes ( A): the change in explanations after the model is updated. A = 1 N NX i=1 ∥exp m(xi)− exp m′(xi)∥, (24) where exp m(x) is the explanation from model m, exp m′(x) is from the updated model m′, and N is the total number of samples. 6.2.4. E fficiency The efficiency of the evaluation method involves computational capacity and resources, such as resource utilization and time, to generate explanations and scalability that the evaluation method handles large-scale explanations. The following simple computing formulas can represent computational speed and scalability, respectively [223]. Computational speed (Cs) is the rate at which an XAI system can generate explanations.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "What does Percentage Drop in Confidence (PDC) measure in rationale sufficiency evaluation?",
+    "expected_answer": "It measures the percentage decrease in confidence when using the rationale compared to the full input.",
+    "gold_page": 24,
+    "evidence_quote": "Percentage Drop in Confidence (PDC): It measures the percentage decrease in confidence when using the rationale compared to the full input.",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p24_c05",
+        "page": 24,
+        "section": "6. XAI Evaluation Methods (Fidelity, Consistency, Robustness, Efficiency)",
+        "category": "evaluation",
+        "score": 0.7803,
+        "distance": 0.21974650869377788,
+        "text": "Confidence Ratio (CR): It calculates the ratio of the model’s confidence with the rationale to the confidence with the full input. CR = m(ri) j m(xi) j (28) A CR close to 1 indicates the rationale is highly sufficient, a significantly lower CR (close to 0) suggests it is insufficient, and a CR greater than 1 might indicate potential overfitting or anomalies in the model’s reliance on the rationale. Percentage Drop in Confidence (PDC): It measures the percentage decrease in confidence when using the rationale compared to the full input. PDC =\n\n1− m(ri) j m(xi) j ! × 100% (29) 24",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p24_c04",
+        "page": 24,
+        "section": "6. XAI Evaluation Methods (Fidelity, Consistency, Robustness, Efficiency)",
+        "category": "evaluation",
+        "score": 0.7717,
+        "distance": 0.22825179038212373,
+        "text": "It measures the difference in the model’s confidence between using the entire input and using just the rationale, and it is mathematically represented as: sufficiency = m(xi) j− m(ri) j (27) where m(xi) j is the model’s confidence score for the full input xi and m(ri) j is the model’s confidence score when only the rationale ri is provided. Measuring the difference in prediction confidence between the full input and the rationale helps determine whether the rationale alone can sustain the model’s decision-making process. A small difference indicates high su fficiency, meaning the rationale captures most of the essential information. In contrast, a large difference suggests low sufficiency, indicating that the rationale may be missing important information or that the model relies on other parts of the input. We can use alternative formulas to compute sufficiency.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p25_c00",
+        "page": 25,
+        "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+        "category": "future_directions",
+        "score": 0.734,
+        "distance": 0.2659901685271351,
+        "text": "A lower PDC indicates that the rationale is highly sufficient with minimal loss of confidence, whereas a higher PDC suggests that the rationale is insufficient. 7. Future Research Direction The existing XAI systems have faced several challenges in various aspects, including design objectives, applications, standardization, model complexity, security, and evaluation metrics. Further research is required to overcome these challenges and enhance the state-of-the-art. In this section, we discuss some of the most common XAI challenges and future research directions. 7.1. Model Complexity XAI techniques are often less effective with highly complex models [48]. Developing AI models by reducing complexity without compromising much on accuracy is a challenging task.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "How does high architectural complexity in deep neural networks impact the effectiveness of XAI techniques?",
+    "expected_answer": "XAI techniques are often less effective with highly complex models, making complexity reduction without sacrificing accuracy a major challenge.",
+    "gold_page": 25,
+    "evidence_quote": "XAI techniques are often less effective with highly complex models [48]. Developing AI models by reducing complexity without compromising much on accuracy is a challenging task.",
+    "filter": null,
+    "hit_at_1": 0,
+    "hit_at_3": 0,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p03_c04",
+        "page": 3,
+        "section": "2. Background and Motivation (Terminology & Need)",
+        "category": "background",
+        "score": 0.7484,
+        "distance": 0.2516284410424592,
+        "text": "The black-box nature of AI models can be attributed to various factors, including model complexity, optimization algorithms, large and complex training data sets, and the algorithms and processes used to train the models. Deep neural AI models, in particular, exacerbate these concerns due to the design of deep neural networks (DNN), with components that remain hidden from human comprehension. 2.2. Need for Explanation Black-box AI systems have become ubiquitous throughout society, extensively integrated in a diverse range of disciplines, and can be found permeating many aspects of daily activities. The need for explainability in real-world applications is multifaceted and essential for ensuring the performance and reliability of AI models while allowing users to work effectively with these models.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p26_c01",
+        "page": 26,
+        "section": "7. Future Research Direction (Multilingual) & 8. Conclusion",
+        "category": "future_directions_conclusion",
+        "score": 0.7361,
+        "distance": 0.263886248294507,
+        "text": "Conclusion The applications of complex AI models are widely integrated with our daily life activities in various aspects. Because of their complex nature, the demand for transparency, accountability, and trustworthiness is highly increased, specifically when these complex models make automated decisions that impact our lives di fferently. XAI techniques are required to explain why the model made that decision or prediction. In this survey, we explored the standard definitions and terminologies, the need for XAI, the beneficiaries of XAI, techniques of XAI, and applications of XAI in various fields based on the current stateof-the-art XAI works of literature. The study focuses on posthoc model explainability. The taxonomy is designed to provide high-level insights for each XAI technique.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p01_c02",
+        "page": 1,
+        "section": "1. Introduction",
+        "category": "introduction",
+        "score": 0.7354,
+        "distance": 0.26456542613940925,
+        "text": "Keywords: XAI, explainable artificial intelligence, interpretable deep learning, machine learning, neural networks, evaluation methods, computer vision, natural language processing, NLP, transformers, time series, healthcare, and autonomous cars. 1. Introduction Since the advent of digital computer systems, scientists have been exploring ways to automate human intelligence via computational representation and mathematical theory, eventually giving birth to a computational approach known as Artificial Intelligence (AI). AI and machine learning (ML) models are being widely adopted in various domains, such as web search engines, speech recognition, self-driving cars, strategy gameplay, image analysis, medical procedures, and national defense, many of which require high levels of security, transparent decision-making, and a responsibility to protect information [1, 2].",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "What data stream and latency conditions make real-time explanations in autonomous cars challenging?",
+    "expected_answer": "Autonomous cars receive continuous data streams from sensors, lidars, and radars with strict latency constraints, demanding efficient real-time XAI algorithms.",
+    "gold_page": 25,
+    "evidence_quote": "autonomous cars have continuous and constant data streams from various sources, such as sensors, lidars, and radars with latency constraints.",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p25_c07",
+        "page": 25,
+        "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+        "category": "future_directions",
+        "score": 0.8454,
+        "distance": 0.15457703855858507,
+        "text": "For instance, autonomous cars have continuous and constant data streams from various sources, such as sensors, lidars, and radars with latency constraints. Hence, processing and providing a model explanation for this large amount of data and the latency constraint requires 25",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p25_c06",
+        "page": 25,
+        "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+        "category": "future_directions",
+        "score": 0.7918,
+        "distance": 0.20824447218608944,
+        "text": "Real-time Explanation Complex AI models have recently become more popular and deployed in real-time situations in various non-safety and safety-critical application areas. Safety-critical application areas such as healthcare monitoring, autonomous cars, military operations, and robotics models should provide real-time explanations to ensure safety. However, the existing state-of-the-art XAIs have several challenges addressing this real-time explanation aspect. There are various factors for these XAI challenges. For example, a DNN may require numerous layers, thousands, millions, or billions of parameters to process the real-time input data, which is time-consuming, especially for large models. On the other hand, large volumes of data are generated continuously in real-time situations.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p20_c05",
+        "page": 20,
+        "section": "5. XAI Techniques in Application Areas (Healthcare Summary & Autonomous Vehicles)",
+        "category": "applications_healthcare_av",
+        "score": 0.7525,
+        "distance": 0.2475048050890848,
+        "text": "Explainability in Autonomous V ehicles Autonomous vehicles use complex and advanced AI systems by integrating several deep-learning models that can handle various data types, such as images, videos, audio, and information from LIDAR and radar [170]. These models utilize inputs from diverse sources, including cameras, sensors, and GPS, to deliver safe and accurate navigation. A crucial consideration is determining which data are most critical. What information takes precedence, and why? Understanding the importance of different data types is key to enhancing our models and learning effectively from the gathered information [171]. To address these questions and better decision-making processes of blackbox AI models, developers use the XAI approach to evaluate the AI systems.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Why are multilingual and multicultural XAI methods necessary when deploying large AI models in diverse societal environments?",
+    "expected_answer": "They provide meaningful explanations addressing cultural variations, regional preferences, and language diversities to mitigate harmful biases and uphold cultural norms.",
+    "gold_page": 26,
+    "evidence_quote": "suitable XAI methods are crucial to providing meaningful model explanations for cultural variations, regional preferences, and language diversities that allow us to address harmful biases and keep sensitive cultural norms in diverse societal environments.",
+    "filter": null,
+    "hit_at_1": 1,
+    "hit_at_3": 1,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p26_c00",
+        "page": 26,
+        "section": "7. Future Research Direction (Multilingual) & 8. Conclusion",
+        "category": "future_directions_conclusion",
+        "score": 0.7404,
+        "distance": 0.25962047145330824,
+        "text": "efficient XAI algorithms and techniques in real-time. Much effort is needed to address these challenges and meet the realtime requirements of safety-critical applications by considering model optimization, parallel processing, efficient XAI algorithms, hybrid approaches, and other handy techniques. 7.8. Multilingual and Multicultural Explanation In recent years, large AI models that work on the diversity of languages and cultures have been employed. However, these AI models face several challenges because of the users’ expectations, multilingual and multicultural nature. Hence, suitable XAI methods are crucial to providing meaningful model explanations for cultural variations, regional preferences, and language diversities that allow us to address harmful biases and keep sensitive cultural norms in diverse societal environments. 8.",
+        "is_gold_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p25_c05",
+        "page": 25,
+        "section": "7. Future Research Direction (Complexity, Evaluation, Security)",
+        "category": "future_directions",
+        "score": 0.7344,
+        "distance": 0.2655999591587527,
+        "text": "Explainability of Multi-modal Models Multimodal AI models are designed to process multiple data modalities, such as texts, images, audio, videos, and other modalities. Explaining the fusion of modalities, intermodal relationships, scalability, data heterogeneity, and high dimensionality are some of the most complex challenges in the current state-of-the-art [65]. Therefore, designing combined XAI techniques may be helpful to address these challenges. The design process requires multi-disciplinary e fforts from machine learning, computer vision, natural language processing, and human-computer interaction expertise. Specifically, large language models, GPT, are on the way to becoming Any-to-Any Multimodal models [227]. Hence, the Any-to-Any Multimodal explanation technique is required, but it is complex and challenging. 7.7.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p03_c05",
+        "page": 3,
+        "section": "2. Background and Motivation (Terminology & Need)",
+        "category": "background",
+        "score": 0.729,
+        "distance": 0.2710447594690707,
+        "text": "XAI is becoming essential in building trustworthy, accountable, and transparent AI models to satisfy delicate application designs [31, 32]. Transparency: Transparency is the capability of an AI system to provide understandable and reasonable explanations of a model’s decision or prediction process [4, 33, 34]. XAI systems explain how AI models arrive at their prediction or decision so that experts and model users can understand the logic behind the AI systems [17, 35], which is crucial for trustworthiness and transparency. Transparency has a meaningful impact on people’s willingness to trust the AI system by using directly interpretable models or availing XAI system explanations [36]. For example, if on a mobile device, voice-to-text recognition systems produce wrong transcription, the consequences may not always be a big concern although it may be irritating.",
+        "is_gold_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "What sensor and communication modalities enhance AI-driven autonomous vehicle systems?",
+    "expected_answer": "Visual, spatial, temporal, audio, environmental, communication, genetic, and textual modalities.",
+    "gold_page": 21,
+    "evidence_quote": "autonomous vehicles, including visual, spatial, temporal, audio, environmental, communication, genetic, and textual. The advancements significantly enhance the AI-driven autonomous vehicle system",
+    "filter": {
+      "category": "applications_science"
+    },
+    "hit_at_1": 0,
+    "hit_at_3": 0,
+    "top_3_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "B_XAI_survey_2025_p20_c05",
+        "page": 20,
+        "section": "5. XAI Techniques in Application Areas (Healthcare Summary & Autonomous Vehicles)",
+        "category": "applications_healthcare_av",
+        "score": 0.7273,
+        "distance": 0.2727287161240115,
+        "text": "Explainability in Autonomous V ehicles Autonomous vehicles use complex and advanced AI systems by integrating several deep-learning models that can handle various data types, such as images, videos, audio, and information from LIDAR and radar [170]. These models utilize inputs from diverse sources, including cameras, sensors, and GPS, to deliver safe and accurate navigation. A crucial consideration is determining which data are most critical. What information takes precedence, and why? Understanding the importance of different data types is key to enhancing our models and learning effectively from the gathered information [171]. To address these questions and better decision-making processes of blackbox AI models, developers use the XAI approach to evaluate the AI systems.",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "B_XAI_survey_2025_p22_c01",
+        "page": 22,
+        "section": "5. XAI Techniques in Application Areas (AV Summary & Key Insights)",
+        "category": "applications_science",
+        "score": 0.7192,
+        "distance": 0.2808222589527499,
+        "text": "[186, 187] 2 Spatial Data LIDAR and Radar CNN, DNN Feature Importance, SHAP, CAM, LRP, LIME Enhancing 3D space and object interactions, improving safety, security, reliability, design, development, and troubleshooting of the car by providing insights into the AI’s spatial data processing and model decision-making [188, 189] 3 Temporal Data (TimeSeries) Sensor RNN, LSTM, GRU TSViz, LIME, CAM, SHAP, LRP Feature Importance, Temporal Output Explanation provides insights into time-series data for reliable decision-making, identifying potential safety issues, enhancing overall vehicle safety, and a deeper interpretation of the vehicle’s actions over time for postincident analysis [190, 191] 4 Auditory Data Microphone CNN, RNN LRP, CAM, Saliency Maps, Attention Visualization enhancing the vehicle’s ability to understand and react to auditory signals, improving safety and security by providing",
+        "is_gold_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "B_XAI_survey_2025_p21_c01",
+        "page": 21,
+        "section": "5. XAI Techniques in Application Areas (Autonomous Vehicles, Chemistry, Physics)",
+        "category": "applications_science",
+        "score": 0.7073,
+        "distance": 0.29266393145647485,
+        "text": "[174] highlighted the critical need for algorithmic assurance to foster trust in human-autonomous system relationships, as evidenced in their thorough analysis. The importance of transparency in critical driving decisions, noting that such clarity is crucial for establishing trust in the autonomous capabilities of self-driving vehicles [175]. Safety and reliability: These are critical components and challenges in developing autonomous driving technology [176]. Under the US Department of Transportation, the American National Highway Traffic Safety Administration (NHTSA) has established specific federal guidelines for automated vehicle policy to enhance tra ffic safety, as outlined in their 2016 policy document [177].",
+        "is_gold_hit": false
+      }
+    ]
+  }
+]
